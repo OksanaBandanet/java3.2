@@ -3,7 +3,7 @@ public class Main {
         System.out.println("Ваш баланс равен:");
         int balance = 100;
         int refill = 1500;
-        int bonus = refill/100;
+        int bonus = refill / 100;
         if (refill > 1000) {
             System.out.println(balance + refill + bonus);
         } else {
